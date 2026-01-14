@@ -87,25 +87,25 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp L         &kp U         &kp COMMA     &kp PERIOD                                       &kp F        &kp W  &kp R  &kp Y  &kp P
-&kp E             &kp I         &kp A         &kp O         &kp MINUS        &none                &none      &kp K        &kp T  &kp N  &kp S  &kp H
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V         &lt 3 SEMICOLON  &none                &mo 3      &kp G        &kp D  &kp M  &kp J  &mt RIGHT_SHIFT B
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LS(CAPS)  &lt 1 ENTER      &lt 2 BACKSPACE      &lt 2 TAB  &lt 1 SPACE                       &kp RCTRL
+&kp Q             &kp L         &kp U         &kp COMMA     &kp PERIOD                                        &kp F        &kp W  &kp R  &kp Y  &kp P
+&kp E             &kp I         &kp A         &kp O         &kp MINUS        &kp DELETE           &mo 3       &kp K        &kp T  &kp N  &kp S  &kp H
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V         &lt 3 SEMICOLON  &kp BACKSPACE        &kp ESCAPE  &kp G        &kp D  &kp M  &kp J  &mt RIGHT_SHIFT B
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LS(CAPS)  &lt 1 ENTER      &lt 2 BACKSPACE      &lt 2 TAB   &lt 1 SPACE                       &kp RCTRL
             >;
         };
 
         NUM {
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET                           &kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(LEFT_BRACKET)
-&kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET  &none           &none   &kp LS(SLASH)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp LS(RIGHT_BRACKET)
-&kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0       &none           &none   &kp LS(EQUAL)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)
-&trans     &trans        &trans        &trans        &trans             &kp DELETE      &trans  &trans                                                               &trans
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET                                               &kp LS(GRAVE)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(LEFT_BRACKET)
+&kp SLASH  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_BRACKET  &kp SINGLE_QUOTE      &kp LS(SINGLE_QUOTE)  &kp LS(SLASH)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp LS(RIGHT_BRACKET)
+&kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0       &kp BACKSLASH         &kp LS(BACKSLASH)     &kp LS(EQUAL)  &kp LS(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)
+&trans     &trans        &trans        &trans        &trans             &kp DELETE            &trans                &trans                                                               &trans
             >;
         };
 
         MOUSE {
             bindings = <
-&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12                      &trans    &kp SQT         &mkp MB3        &kp LS(SQT)      &kp PRINTSCREEN
+&kp ESCAPE  &kp F1  &kp F2  &kp F3  &kp F12                      &trans    &none           &mkp MB3        &none            &kp PRINTSCREEN
 &trans      &kp F4  &kp F5  &kp F6  &kp F11  &none       &trans  &trans    &mkp MB1        &kp UP_ARROW    &mkp MB2         &trans
 &trans      &kp F7  &kp F8  &kp F9  &kp F10  &none       &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
 &trans      &trans  &trans  &trans  &trans   &trans      &trans  &trans                                                     &mo 5
